@@ -23,7 +23,7 @@ public class NullContainerEx extends JFrame {
 		}
 		for(int k=1; k<=9; k++) {
 			JButton b = new JButton(Integer.toString(k));
-			b.setLocation(k*15, k*15);
+			b.setLocation((k+9)*15, (9-k)*15);
 			b.setSize(50, 20);
 			c.add(b);
 		}
